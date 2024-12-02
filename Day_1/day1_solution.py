@@ -18,7 +18,7 @@ def calculate_similarity_score(left_list, right_list):
     return similarity_score
 
 # Read the input lists from the file
-with open("day1_input.txt") as f:
+with open("Day_1/day1_input.txt") as f:
     lines = [[int(i) for i in l.split()] for l in f]
 
 # Split the input into two lists
